@@ -1,0 +1,60 @@
+body {
+  /* color: darkgreen; */
+  background-color: dodgerblue;
+}
+
+h1 {
+  /* text-indent: 150px;
+  text-transform: uppercase;
+  border-style: dashed; */
+}
+
+h2 {
+  /* text-decoration: underline; */
+  /* color: darkblue; */
+
+}
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+.fish {
+
+}
+
+#firstList {
+
+}
+
+.mammals {
+  /* color: red; */
+  /* padding-left: 30px;
+  padding-right: 30px; */
+}
+
+.birds {
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+li {
+  background: white;
+  padding: 30px;
+  font-size: 30px;
+  width: 15%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li:hover {
+  border: 2px solid black;
+background-color: yellow;
+  opacity: 0.5;
+}
